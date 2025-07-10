@@ -111,4 +111,4 @@ for state in os.listdir(state_base):
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ aggregated_insurance data load complete.")
+print(" aggregated_insurance data load complete.")

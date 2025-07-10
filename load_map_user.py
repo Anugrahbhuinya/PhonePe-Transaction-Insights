@@ -99,9 +99,9 @@ if os.path.exists(state_path_root):
                             print("Inserting State:", values)
                             cursor.execute(insert_query, values)
                     else:
-                        print(f"🚫 No hover data found in: {json_path}")
+                        print(f" No hover data found in: {json_path}")
 
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ map_user data load complete.")
+print(" map_user data load complete.")

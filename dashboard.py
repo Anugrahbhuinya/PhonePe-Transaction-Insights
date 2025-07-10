@@ -166,4 +166,4 @@ if not df5.empty:
     ax5.set_title("Top 10 Districts by Registered Users")
     st.pyplot(fig5)
 
-st.success("✅ Dashboard loaded with filters!")
+st.success(" Dashboard loaded with filters!")

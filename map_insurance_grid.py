@@ -102,4 +102,4 @@ if os.path.exists(state_root):
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ map_insurance_grid data load complete.")
+print(" map_insurance_grid data load complete.")

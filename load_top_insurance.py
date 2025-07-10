@@ -108,4 +108,4 @@ if os.path.exists(state_path_root):
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ top_insurance data load complete.")
+print(" top_insurance data load complete.")

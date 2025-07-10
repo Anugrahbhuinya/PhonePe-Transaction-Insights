@@ -103,9 +103,9 @@ if os.path.exists(state_path_root):
                             print("Inserting State:", values)
                             cursor.execute(insert_query, values)
                     else:
-                        print(f"🚫 No district data found in: {json_path}")
+                        print(f" No district data found in: {json_path}")
 
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ top_transaction data load complete.")
+print(" top_transaction data load complete.")

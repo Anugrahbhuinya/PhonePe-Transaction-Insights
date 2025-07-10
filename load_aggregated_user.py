@@ -101,9 +101,9 @@ if os.path.exists(state_path_root):
                             print("Inserting State:", values)
                             cursor.execute(insert_query, values)
                     else:
-                        print(f"🚫 No user data found in: {json_path}")
+                        print(f" No user data found in: {json_path}")
 
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ aggregated_user data load complete.")
+print(" aggregated_user data load complete.")

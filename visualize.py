@@ -139,4 +139,4 @@ plt.tight_layout()
 plt.savefig("plots/top_districts_registered_users.png")
 plt.show()
 
-print("\n✅ All plots generated and saved in /plots folder (excluding 'All-India').")
+print("\n All plots generated and saved in /plots folder (excluding 'All-India').")

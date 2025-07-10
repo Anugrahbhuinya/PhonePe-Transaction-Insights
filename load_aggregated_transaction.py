@@ -105,4 +105,4 @@ for state in os.listdir(state_path_root):
 conn.commit()
 cursor.close()
 conn.close()
-print("✅ aggregated_transaction data load complete.")
+print(" aggregated_transaction data load complete.")
